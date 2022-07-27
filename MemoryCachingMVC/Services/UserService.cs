@@ -13,7 +13,6 @@ namespace MemoryCachingMVC.Services
         {
             db = context;
             cache = memoryCache;
-            Initialize();
         }
 
         public void Initialize()
